@@ -29,7 +29,6 @@ a {
   z-index: 100;
   padding: 0 20px;
   backdrop-filter: blur(18px);
-    
 }
 
 .navbar {
@@ -206,8 +205,9 @@ a {
   font-size: 20px;
 }
 
-.input-box i.pwd-hide {
-  right: 0;
+.input-box .pwd-hide {
+  position: relative;
+  right: 25px;
   font-size: 18px;
 }
 

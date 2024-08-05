@@ -15,7 +15,9 @@ export const Home = () => {
     <>
       <header className="header">
         <nav className="navbar">
-        <img src={log} alt="logo" className="logo"/>
+          <a href="www.google.com" className="nav-logo">
+            McBitss
+          </a>
 
           <ul className="nav-item">
             <li className="nav-item">
